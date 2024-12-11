@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Крестики-Нолики 2.0 - Подключение</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Крестики-Нолики 2.0</h1>
+    <div id="join-room">
+        <h2>Подключиться к комнате</h2>
+        <input type="text" id="join-code" placeholder="Введите код комнаты" />
+        <button id="join-button">Подключиться</button>
+        <button id="join-ready-button" style="display:none;">Готов</button>
+        <div id="status-message"></div>
+        <div id="countdown" style="display:none;"></div> <!-- Обратный отсчет -->
+        <div id="ready-status" style="display:none;"></div> <!-- Статус готовности -->
+    </div>
+    <script src="join-script.js"></script>
+</body>
+</html>

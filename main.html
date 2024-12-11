@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Крестики-Нолики 2.0 - Главная</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Крестики-Нолики 2.0</h1>
+    <div>
+        <button id="play-button">Играть</button>
+        <button id="join-button">Подключиться</button>
+    </div>
+
+    <script>
+        document.getElementById('play-button').addEventListener('click', () => {
+            window.location.href = 'index.html'; // Перенаправление на страницу создания комнаты
+        });
+
+        document.getElementById('join-button').addEventListener('click', () => {
+            window.location.href = 'join.html'; // Перенаправление на страницу подключения
+        });
+    </script>
+</body>
+</html>
